@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>codeView</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="600" />
+    <script src="/static/js/jquery.js"></script> 
+    <link rel="stylesheet" href="/static/css/default.css">
+    <link rel="stylesheet" href="/static/highlight/monokai-sublime.css">
+    <link rel="stylesheet" href="/static/css/style.css">    
+</head>
+<body>
+    <!-- <% include wrap %>  -->
+    <h1 id="specialId" style="display:none"><%= id %></h1>
+    <div class="content">
+        <div class="dflex topBlock">
+            <button id="btn1">新建</button>
+            <!-- <input id="textId" type="text" placeholder="请输入查询id">
+            <button id="btn2" style="margin: 10px 0 15px 0px">查询</button>        -->
+            <button id="btn3" style="margin: 10px 0 15px 20px">保存</button>
+            <div id="pathBlock">
+                <input id="pathId" type="text">
+                <button id="copyId">复制</button>
+            </div>    
+        </div>
+        <div>
+            <pre>
+                <code id="main" class="Javascript" style="min-height:320px" contenteditable></code>
+            </pre>
+        </div>
+        <div class="selBlock">
+            <!-- <p>样式选择</p>
+            <div id="changeStyleSelect" class="selbox"></div> -->
+            <p>语言选择</p>
+            <div id="changeLaunSelect" class="selbox"></div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="/static/js/highlight.pack.js"></script>
+<script src="/static/js/common.js"></script>
+   
+
+
+
+
